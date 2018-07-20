@@ -24,7 +24,15 @@ var json_obj = {
     { "name": "firebase", "percentage": "80" },
     { "name": "MS SQL", "percentage": "80" },
     { "name": "MySQL", "percentage": "80" },
-    { "name": "MongoDB", "percentage": "70" }
+    { "name": "MongoDB", "percentage": "70" },
+    { "name": "Heroku", "percentage": "70" },
+    { "name": "devops", "percentage": "70" },
+    { "name": "git", "percentage": "70" },
+    { "name": "json", "percentage": "90" },
+    { "name": "Yardi", "percentage": "70" },
+    { "name": "infor", "percentage": "65" },
+    { "name": "apache cordova", "percentage": "65" },
+    { "name": "blockchain", "percentage": "50" },
   ],
   "experience": [
     { "company": "Waseef", "from": "DEC 2013", "to": "Present", "title": "Application Developer", "description": "Waseef Desc" },
@@ -37,7 +45,7 @@ var json_obj = {
   ],
   "reference": [
     { "name": "Ahmed Razek", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" },
-    { "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
+    //{ "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
   ]
 }
 //JSON Object End................
@@ -97,7 +105,7 @@ $(document).ready(function () {
     div += '<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">';
     div += '<div class="card-body">';
     div += '<div class="h5">' + json_obj.experience[i].title + '</div>';
-    div += '<p>' + json_obj.experience[i].description + '</p>';
+    //div += '<p>' + json_obj.experience[i].description + '</p>';
     div += '</div>';
     div += '</div>';
     div += '</div>';
@@ -151,7 +159,7 @@ $(document).ready(function () {
     div += '<p class="category">' + json_obj.reference[i].title + '</p>';
     div += '</div>';
     div += '<div class="col-lg-10 col-md-9">';
-    div += '<p>' + json_obj.reference[i].description + '</p>';
+    //div += '<p>' + json_obj.reference[i].description + '</p>';
     div += '</div>';
     div += '</div>';
     div += '</div>';
