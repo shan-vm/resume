@@ -5,6 +5,8 @@ var json_obj = {
   "email":"mail.shanvm@gmail.com",
   "mobile":"+974 30074621",
   "language":"English, Arabic",
+  "facebook":"https://www.facebook.com/i.shanvm",
+  "linkedin":"https://www.linkedin.com/in/shan-muhammed-41319314",
   "skills": [
     { "name": "PHP", "percentage": "80" },
     { "name": "C#.Net", "percentage": "80" },
@@ -56,6 +58,11 @@ $(document).ready(function () {
   $('#footer_address').html(json_obj.address);
   $('#footer_email').html(json_obj.email);
   $('#footer_mobile').html(json_obj.mobile);
+
+  $('#facebook').attr("href", json_obj.facebook);
+  $('#linkedin').attr("href", json_obj.linkedin);
+  $('#footer_facebook').attr("href", json_obj.facebook);
+  $('#footer_linkedin').attr("href", json_obj.linkedin);
   //display Name.......
 
   //display skill data..........
