@@ -131,7 +131,7 @@ $(document).ready(function () {
     div += '<div class="card-body">';
     div += '<div class="h5">' + json_obj.education[i].major + '</div>';
     div += '<p class="category">' + json_obj.education[i].university + '</p>';
-    div += '<p>' + json_obj.education[i].description + '</p>';
+    //div += '<p>' + json_obj.education[i].description + '</p>';
     div += '</div>';
     div += '</div>';
     div += '</div>';
