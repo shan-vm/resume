@@ -27,6 +27,7 @@ var json_obj = {
     { "name": "MongoDB", "percentage": "70" },
     { "name": "Heroku", "percentage": "70" },
     { "name": "devops", "percentage": "70" },
+    { "name": "Docker", "percentage": "80" },
     { "name": "git", "percentage": "70" },
     { "name": "json", "percentage": "90" },
     { "name": "Yardi", "percentage": "70" },
