@@ -4,6 +4,7 @@ var json_obj = {
   "address":"Masaken Mesaimeer, Doha, Qatar",
   "email":"mail.shanvm@gmail.com",
   "mobile":"+974 30074621",
+  "DOB":"1986/07/25",
   "language":"English, Arabic",
   "facebook":"https://www.facebook.com/i.shanvm",
   "linkedin":"https://www.linkedin.com/in/shan-muhammed-41319314",
@@ -63,6 +64,7 @@ $(document).ready(function () {
   $('#email').html(json_obj.email);
   $('#mobile').html(json_obj.mobile);
   $('#language').html(json_obj.language);
+  $('#age').html(getAge(json_obj.DOB));
 
   $('#footer_address').html(json_obj.address);
   $('#footer_email').html(json_obj.email);
@@ -174,3 +176,14 @@ $(document).ready(function () {
 
 
 });
+
+function getAge(dateString) {
+  var today = new Date();
+  var birthDate = new Date(dateString);
+  var age = today.getFullYear() - birthDate.getFullYear();
+  var m = today.getMonth() - birthDate.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+  }
+  return age;
+}
