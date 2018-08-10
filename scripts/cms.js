@@ -8,6 +8,8 @@ var json_obj = {
   "language":"English, Arabic",
   "facebook":"https://www.facebook.com/i.shanvm",
   "linkedin":"https://www.linkedin.com/in/shan-muhammed-41319314",
+  "jobtitle":"Application Developer",
+  "metadesc":"Resume of Shan Muhammed. Application Developer, System Analyst and Programmer",
   "skills": [
     { "name": "PHP", "percentage": "80" },
     { "name": "C#.Net", "percentage": "80" },
@@ -55,7 +57,11 @@ var json_obj = {
 $(document).ready(function () {
 
   //display Name.......
-  $('title').html(json_obj.name);
+  //$('title').html(json_obj.name+"|"+json_obj.jobtitle);
+  document.title = "Resume of "+json_obj.name+"|"+json_obj.jobtitle;
+  //$("meta[property='og\\:title']").attr("content", result.title);
+  $("meta[name='description']").attr("content", json_obj.metadesc);
+
   $('.navbar-brand').html(json_obj.name);
   $('#applicant').html(json_obj.name);
   $('#footer_name').html(json_obj.name);
