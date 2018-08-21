@@ -85,7 +85,7 @@ $(document).ready(function () {
   //display skill data..........
   var div = '<div class="row">';
   for (i = 0; i < json_obj.skills.length; i++) {
-    div += '<div class="col-md-6">';
+    div += '<div  class="col-md-4">';
     div += '<div class="progress-container progress-primary">';
     div += '<span class="progress-badge">' + json_obj.skills[i].name + '</span>';
     div += '<div class="progress">';
