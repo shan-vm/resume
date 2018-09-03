@@ -33,7 +33,16 @@ var json_obj = {
     { "name": "devops", "percentage": "70" },
     { "name": "Yardi", "percentage": "70" },
     { "name": "infor", "percentage": "65" },
+  ],
+  "interests": [
     { "name": "blockchain", "percentage": "50" },
+    { "name": "etherium", "percentage": "50" },
+    { "name": "machine learning", "percentage": "50" },
+    { "name": "Augmented Reality", "percentage": "50" },
+    { "name": "odoo", "percentage": "50" },
+    { "name": "jenkin", "percentage": "50" },
+    { "name": "selenium", "percentage": "50" },
+    { "name": "Industry 4.0", "percentage": "50" },
   ],
   "experience": [
     { "company": "Waseef", "from": "DEC 2013", "to": "Present", "title": "Application Developer", "description": "Waseef, is one of the largest fully integrated Asset, Property and Facility Management services companies in Qatar, which offers a “one stop shop” and full service solution to its clients​. Some of my tasks are:<ul><li>Application Architecture</li><li>Web/Desktop/Mobile App development</li><li>Create REST API for server side communication for the Apps</li><li>Create Successor within the group.</li><li>Gather feedback from end users</li><li>Ensure the app under development covers all the requirements and meet company standards</li><li>Arrange third-party meeting in case of resource required from outside.</li></ul>" },
@@ -96,6 +105,25 @@ $(document).ready(function () {
   div += '</div>';
   $('#list_skill').html(div);
   //display skill data..........
+
+
+  //display interests data..........
+  var div = '<div class="row">';
+  for (i = 0; i < json_obj.interests.length; i++) {
+    div += '<div  class="col-md-3">';
+    div += '<div class="progress-container progress-primary">';
+    div += '<span class="progress-badge">' + json_obj.interests[i].name + '</span>';
+    div += '<div class="progress">';
+    div += '<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ' + json_obj.interests[i].percentage + '%;"></div>';
+    div += '<span class="progress-value">' + json_obj.interests[i].percentage + '%</span>';
+    div += '</div>';
+    div += '</div>';
+    div += '</div>';
+
+  }
+  div += '</div>';
+  $('#list_interests').html(div);
+  //display interests data..........
 
   //display experience data..........
   div = '';
@@ -173,7 +201,7 @@ $(document).ready(function () {
   }
   $('#list_reference').html(div);
   $('#list_reference_indicator').html(indicator);
-    
+
 
   //display reference data..........
 
