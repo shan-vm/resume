@@ -43,6 +43,9 @@ var json_obj = {
     { "name": "jenkin", "percentage": "50" },
     { "name": "selenium", "percentage": "50" },
     { "name": "Industry 4.0", "percentage": "50" },
+    { "name": "Amazon web service", "percentage": "50" },
+    { "name": "google cloud platform", "percentage": "50" },
+    { "name": "azure", "percentage": "50" },
   ],
   "experience": [
     { "company": "Waseef", "from": "DEC 2013", "to": "Present", "title": "Application Developer", "description": "Waseef, is one of the largest fully integrated Asset, Property and Facility Management services companies in Qatar, which offers a “one stop shop” and full service solution to its clients​. Some of my tasks are:<ul><li>Application Architecture</li><li>Web/Desktop/Mobile App development</li><li>Create REST API for server side communication for the Apps</li><li>Create Successor within the group.</li><li>Gather feedback from end users</li><li>Ensure the app under development covers all the requirements and meet company standards</li><li>Arrange third-party meeting in case of resource required from outside.</li></ul>" },
