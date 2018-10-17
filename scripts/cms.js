@@ -11,6 +11,7 @@ var json_obj = {
   "jobtitle":"Application Developer",
   "metadesc":"Resume of Shan Muhammed. Application Developer, System Analyst and Programmer",
   "skills": [
+    { "name": "infor EAM consultancy", "percentage": "85" },
     { "name": "MEAN stack", "percentage": "60" },
     { "name": "angular", "percentage": "70" },
     { "name": "node", "percentage": "75" },
@@ -32,7 +33,6 @@ var json_obj = {
     { "name": "Heroku", "percentage": "70" },
     { "name": "devops", "percentage": "70" },
     { "name": "Yardi", "percentage": "70" },
-    { "name": "infor", "percentage": "65" },
   ],
   "interests": [
     { "name": "blockchain", "percentage": "50" },
