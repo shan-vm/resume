@@ -101,7 +101,7 @@ $(document).ready(function () {
     div += '<div  class="col-md-4">';
     div += '<div class="progress-container progress-primary">';
     div += '<span class="progress-badge">' + json_obj.skills[i].name + '</span>';
-    div += '<img src="' + json_obj.skills[i].image + '" height="100px"></img>';
+    div += '<img src="' + json_obj.skills[i].image + '" height="25px"></img>';
     div += '<div class="progress">';
     div += '<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ' + json_obj.skills[i].percentage + '%;"></div>';
     div += '<span class="progress-value">' + json_obj.skills[i].percentage + '%</span>';
