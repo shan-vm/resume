@@ -11,7 +11,7 @@ var json_obj = {
   "jobtitle":"Application Developer",
   "metadesc":"Resume of Shan Muhammed. Infor EAM(CAFM) Techno Consultant, Application Developer, System Analyst and Programmer",
   "skills": [
-    { "name": "infor EAM consultancy", "percentage": "85" },
+    { "name": "infor EAM consultancy", "image": "", "percentage": "85" },
     { "name": "MEAN stack", "percentage": "60" },
     { "name": "angular", "percentage": "70" },
     { "name": "node", "percentage": "75" },
@@ -32,7 +32,7 @@ var json_obj = {
     { "name": "MySQL", "percentage": "80" },
     { "name": "Heroku", "percentage": "70" },
     { "name": "devops", "percentage": "70" },
-    { "name": "Yardi", "percentage": "70" },
+    { "name": "Yardi", "image": "https://www.yardi.com/wp-content/uploads/resources/Yardi_Logo_RGB.jpg", "percentage": "70" },
   ],
   "interests": [
     { "name": "blockchain", "percentage": "50" },
@@ -101,6 +101,7 @@ $(document).ready(function () {
     div += '<div  class="col-md-4">';
     div += '<div class="progress-container progress-primary">';
     div += '<span class="progress-badge">' + json_obj.skills[i].name + '</span>';
+    div += '<img src="' + json_obj.skills[i].image + '" height="100px"></img>';
     div += '<div class="progress">';
     div += '<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ' + json_obj.skills[i].percentage + '%;"></div>';
     div += '<span class="progress-value">' + json_obj.skills[i].percentage + '%</span>';
