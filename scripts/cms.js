@@ -61,8 +61,8 @@ var json_obj = {
     //{ "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
   ],
   "projects": [
-    { "name": "project 1", "description": "description 1"},
-    { "name": "project 2", "description": "description 2"}
+    { "name": "Setup CAFM system", "description": "Set Up CAFM system for a company with 26+ properties to manage", "activities": "<ul><li>Creation of Organizations/Properties</li><li>Creation of Users<ul><li>Identify previleges and create corresponsing user groups</li><li>Allocate organizations to users</li></ul></li><li>Identify Locations and Higherarchies and upload</li><li>Identify and upload Classes, Suppliers, Manufacturers</li><li>Identify Assets,sub assets,parent location,parent position and upload</li><li>Identify Parts/Materials and Upload</li></ul>"},
+    { "name": "Custom Budget", "Develop Custom Budget for CAFM since the standard sysem budget concept is different": "<ul><li>Identify Stakeholders</li><li>Identify scope & Gather requirments</li><li>Develop basic architecture</li></ul>"}
   ]
 }
 //JSON Object End................
@@ -197,7 +197,7 @@ for (i = 0; i < json_obj.projects.length; i++) {
   div += '<div class="card-body">';
   //div += '<div class="h5">' + json_obj.projects[i].major + '</div>';
   div += '<p class="category">' + json_obj.projects[i].description + '</p>';
-  //div += '<p>' + json_obj.education[i].description + '</p>';
+  div += '<p>' + json_obj.projects[i].activities + '</p>';
   div += '</div>';
   div += '</div>';
   div += '</div>';
