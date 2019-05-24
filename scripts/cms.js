@@ -9,7 +9,7 @@ var json_obj = {
   "facebook":"https://www.facebook.com/i.shanvm",
   "linkedin":"https://www.linkedin.com/in/shan-muhammed-41319314",
   "jobtitle":"Application Developer",
-  "metadesc":"Resume of Shan Muhammed. Application Developer, System Analyst and Programmer",
+  "metadesc":"Resume of Shan Muhammed. Infor EAM(CAFM) Techno Consultant, Application Developer, System Analyst and Programmer",
   "skills": [
     { "name": "infor EAM consultancy", "percentage": "85" },
     { "name": "MEAN stack", "percentage": "60" },
@@ -48,7 +48,7 @@ var json_obj = {
     { "name": "azure", "percentage": "50" },
   ],
   "experience": [
-    { "company": "Waseef", "from": "DEC 2013", "to": "Present", "title": "Application Developer", "description": "Waseef, is one of the largest fully integrated Asset, Property and Facility Management services companies in Qatar, which offers a “one stop shop” and full service solution to its clients​. Some of my tasks are:<ul><li>infor EAM Support</li><li>Yardi Voyager Support</li><li>Application Architecture</li><li>Web/Desktop/Mobile App development</li><li>Create REST API for the Apps</li><li>Create Successor within the group.</li><li>Gather feedback from end users</li><li>Ensure the app under development covers all the requirements and meet company standards</li><li>Arrange third-party meeting in case of resource required from outside.</li></ul>" },
+    { "company": "Waseef", "from": "DEC 2013", "to": "Present", "title": "Infor EAM(CAFM) Techno Consultant,Application Developer", "description": "Waseef, is one of the largest fully integrated Asset, Property and Facility Management services companies in Qatar, which offers a “one stop shop” and full service solution to its clients​. Some of my tasks are:<ul><li>infor EAM Support</li><li>Yardi Voyager Support</li><li>Application Architecture</li><li>Web/Desktop/Mobile App development</li><li>Create REST API for the Apps</li><li>Create Successor within the group.</li><li>Gather feedback from end users</li><li>Ensure the app under development covers all the requirements and meet company standards</li><li>Arrange third-party meeting in case of resource required from outside.</li></ul>" },
     { "company": "Graff360", "from": "JAN 2011", "to": "DEC 2013", "title": "Senior System & Programmer Analyst", "description": "Graff360 is concept and creative solutions providing company. Graff360 focus on Application Development, Creative Advertising, Publications, Media and Print home​. Some of my tasks are:<ul><li>Development, Troubleshooting and Maintenance of Web and Desktop applications in .NET</li><li>Development, Troubleshooting and Maintenance of Web applications in PHP platform</li><li>Database and Application architectural design</li><li>Bug fixing</li><li>Project Documentation</li><li>Train end users for custom developed application</li></ul>" },
     { "company": "Tuner Labs", "from": "APR 2008", "to": "DEC 2010", "title": "System & Programmer Analyst", "description": "TunerLabs is a web development and IT outsourcing company. TunerLabs give Web solutions, Designing, Branding and Technical Support Services.​ Some of my tasks were:<ul><li>Development of Web and Desktop applications in .NET or PHP</li><li>Basic application testing</li></ul>" }
   ],
@@ -59,6 +59,9 @@ var json_obj = {
   "reference": [
     { "name": "Ahmed Razek", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" },
     //{ "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
+  ],
+  "projects":[
+    {"name":"", "description":""}
   ]
 }
 //JSON Object End................
