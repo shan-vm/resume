@@ -7,7 +7,7 @@ var json_obj = {
   "DOB":"1986/07/25",
   "language":"English, Arabic",
   "facebook":"https://www.facebook.com/i.shanvm",
-  "linkedin":"https://www.linkedin.com/in/shan-muhammed-41319314",
+  "linkedin":"https://www.linkedin.com/in/shanvm",
   "jobtitle":"Application Developer",
   "metadesc":"Resume of Shan Muhammed. Infor EAM(CAFM) Techno Consultant, Application Developer, System Analyst and Programmer",
   "skills": [
@@ -57,12 +57,12 @@ var json_obj = {
     { "degree": "Higher Secondary", "from": "2002", "to": "2004", "major": "Computer Science & Electronics", "university": "Institute of Human Resource & Development", "description": "Bachelor" }
   ],
   "reference": [
-    { "name": "Ahmed Razek", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" },
+    { "name": "Ahmed Razek", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
     //{ "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
   ],
-  "projects":[
-    {"name":"", "description":""},
-    {"name":"", "description":""}
+  "projects": [
+    { "name": "project 1", "description": "description 1"},
+    { "name": "project 2", "description": "description 2"}
   ]
 }
 //JSON Object End................
@@ -188,7 +188,7 @@ for (i = 0; i < json_obj.projects.length; i++) {
   div += '<div class="card">';
   div += '<div class="row">';
   div += '<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">';
-  div += '<div class="card-body cc-education-header">';
+  div += '<div class="card-body cc-projects-header">';
   //div += '<p>' + json_obj.projects[i].from + ' - ' + json_obj.projects[i].to + '</p>';
   div += '<div class="h5">' + json_obj.projects[i].name + '</div>';
   div += '</div>';
