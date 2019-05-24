@@ -61,6 +61,7 @@ var json_obj = {
     //{ "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
   ],
   "projects":[
+    {"name":"", "description":""},
     {"name":"", "description":""}
   ]
 }
@@ -179,6 +180,32 @@ $(document).ready(function () {
   }
   $('#list_education').html(div);
   //display education data..........
+
+
+//display projects data..........
+div = '';
+for (i = 0; i < json_obj.projects.length; i++) {
+  div += '<div class="card">';
+  div += '<div class="row">';
+  div += '<div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">';
+  div += '<div class="card-body cc-education-header">';
+  //div += '<p>' + json_obj.projects[i].from + ' - ' + json_obj.projects[i].to + '</p>';
+  div += '<div class="h5">' + json_obj.projects[i].name + '</div>';
+  div += '</div>';
+  div += '</div>';
+  div += '<div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">';
+  div += '<div class="card-body">';
+  //div += '<div class="h5">' + json_obj.projects[i].major + '</div>';
+  div += '<p class="category">' + json_obj.projects[i].description + '</p>';
+  //div += '<p>' + json_obj.education[i].description + '</p>';
+  div += '</div>';
+  div += '</div>';
+  div += '</div>';
+  div += '</div>';
+}
+$('#list_projects').html(div);
+//display projects data..........
+
 
 
   //display reference reference..........
