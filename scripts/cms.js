@@ -61,8 +61,8 @@ var json_obj = {
     //{ "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
   ],
   "projects": [
-    { "name": "Setup CAFM system", "description": "Set Up CAFM system for a company with 26+ properties to manage", "activities": "<ul><li>Creation of Organizations/Properties</li><li>Creation of Users<ul><li>Identify previleges and create corresponsing user groups</li><li>Allocate organizations to users</li></ul></li><li>Identify Locations and Higherarchies and upload</li><li>Identify and upload Classes, Suppliers, Manufacturers</li><li>Identify Assets,sub assets,parent location,parent position and upload</li><li>Identify Parts/Materials and Upload</li></ul>"},
-    { "name": "Custom Budget", "Develop Custom Budget for CAFM since the standard sysem budget concept is different": "<ul><li>Identify Stakeholders</li><li>Identify scope & Gather requirments</li><li>Develop basic architecture</li></ul>"}
+    { "name": "Setup CAFM system", "description": "Set Up CAFM system for a company with 26+ properties to manage", "activities": "<ul><li>Creation of Organizations/Properties</li><li>Creation of Users<ul><li>Identify previleges and create corresponsing user groups</li><li>Allocate organizations to users</li></ul></li><li>Identify Locations and Higherarchies and upload</li><li>Identify and upload Classes, Suppliers, Manufacturers</li><li>Identify Assets,sub assets,parent location,parent position and upload</li><li>Identify Parts/Materials and Upload</li>Set up Activities, Tasks and Checklists for Work Orders<li><li></li>Set up Preventive Maintance Schedules</li><li>Create Workflows for Work Orders, Requisitions, Request for Quotations, Purchase Orders, PO Receipts(Goods Receipts), Supplier Returns and Invoices</li></ul>"},
+    { "name": "Custom Budget", "description": "Develop Custom Budget for CAFM since the standard sysem budget concept is different", "activities": "<ul><li>Identify Stakeholders</li><li>Identify scope & Gather requirments</li><li>Develop basic architecture</li></ul>"}
   ]
 }
 //JSON Object End................
