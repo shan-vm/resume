@@ -11,11 +11,11 @@ var json_obj = {
   "jobtitle":"Application Developer",
   "metadesc":"Resume of Shan Muhammed. Infor EAM(CAFM) Techno Consultant, Application Developer, System Analyst and Programmer",
   "skills": [
-    { "name": "infor EAM consultancy", "image": "https://www.infor.com/img/logo-infor.png", "percentage": "85" },
-    { "name": "MEAN stack", "image": "https://www.linnovate.net/sites/all/themes/linnovate/images/mean-picture.png", "percentage": "60" },
-    { "name": "angular", "image": "https://angular.io/assets/images/logos/angular/angular.svg", "percentage": "70" },
+    { "name": "EAM consultancy", "image": "https://www.infor.com/img/logo-infor.png", "percentage": "85" },
+    { "name": "EAN stack", "image": "https://www.linnovate.net/sites/all/themes/linnovate/images/mean-picture.png", "percentage": "60" },
+    { "name": "ngular", "image": "https://angular.io/assets/images/logos/angular/angular.svg", "percentage": "70" },
     { "name": "node", "image": "https://pbs.twimg.com/profile_images/702185727262482432/n1JRsFeB_400x400.png", "percentage": "75" },
-    { "name": "Bootstrap", "image": "data:image/png;base64,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", "percentage": "80" },
+    { "name": "ootstrap", "image": "data:image/png;base64,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", "percentage": "80" },
     { "name": "TypeScript", "image": "https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png", "percentage": "70" },
     { "name": "PHP", "image": "", "percentage": "80" },
     { "name": "C#.Net", "image": "", "percentage": "80" },
@@ -32,7 +32,7 @@ var json_obj = {
     { "name": "MySQL", "image": "", "percentage": "80" },
     { "name": "Heroku", "image": "", "percentage": "70" },
     { "name": "devops", "image": "", "percentage": "70" },
-    { "name": "Yardi", "image": "https://www.yardi.com/wp-content/uploads/resources/Yardi_Logo_RGB.jpg", "percentage": "70" },
+    { "name": " Voyager", "image": "https://www.yardi.com/wp-content/uploads/resources/Yardi_Logo_RGB.jpg", "percentage": "70" },
   ],
   "interests": [
     { "name": "blockchain", "image": "", "percentage": "50" },
@@ -100,8 +100,10 @@ $(document).ready(function () {
   for (i = 0; i < json_obj.skills.length; i++) {
     div += '<div  class="col-md-4">';
     div += '<div class="progress-container progress-primary">';
-    div += '<span class="progress-badge">' + json_obj.skills[i].name + '</span>';
+    
     div += '<img src="' + json_obj.skills[i].image + '" height="25px"></img>';
+    div += '<span class="progress-badge">' + json_obj.skills[i].name + '</span>';
+    
     div += '<div class="progress">';
     div += '<div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: ' + json_obj.skills[i].percentage + '%;"></div>';
     div += '<span class="progress-value">' + json_obj.skills[i].percentage + '%</span>';
