@@ -226,7 +226,7 @@ $('#list_projects').html(div);
       div += '<div class="carousel-item">';
     }
     div += '<div class="row">';
-    div += '<div class="col-lg-2 col-md-3 cc-reference-header">';
+    div += '<div class="col-lg-10 col-md-10 cc-reference-header">';
     div += '<img src="' + json_obj.reference[i].image + '" alt="Image" />';
     div += '<span class="h5 pt-2">' + json_obj.reference[i].name + '</span></br>';
     div += '<span class="category">' + json_obj.reference[i].title + '</span>';
