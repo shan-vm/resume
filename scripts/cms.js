@@ -57,8 +57,9 @@ var json_obj = {
     { "degree": "Higher Secondary", "from": "2002", "to": "2004", "major": "Computer Science & Electronics", "university": "Institute of Human Resource & Development", "description": "Bachelor" }
   ],
   "reference": [
-    { "name": "Ahmed Razek", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
-    //{ "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
+    { "name": "Ahmed Razek", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" },
+    { "name": "Syed Imthiyas", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" },
+    { "name": "Shyam Achuthan", "title": "IT Manager", "image": "images/person-default.png", "description": "Description" }
   ],
   "projects": [
     { "name": "Setup CAFM system", "description": "Set Up CAFM system for a company with 26+ properties to manage", "activities": "<ul><li>Creation of Organizations/Properties</li><li>Creation of Users<ul><li>Identify previleges and create corresponsing user groups</li><li>Allocate organizations to users</li></ul></li><li>Identify Locations and hierarchy and upload</li><li>Identify and upload Classes, Suppliers, Manufacturers</li><li>Identify Assets,sub assets,parent location,parent position and upload</li><li>Identify Parts/Materials and Upload</li><li>Set up Activities, Tasks and Checklists for Work Orders</li><li>Set up Preventive Maintance Schedules</li><li>Create Workflows for Work Orders,Pick Ticket, Requisitions, Request for Quotations, Purchase Orders, PO Receipts(Goods Receipts), Supplier Returns and Invoices and many more...</li><li>Create FLEX business Rules for Screens and Workflow controls</li><li>Develop Custom Reports in IBM cognos as per user requirements. Some are<ul><li>User Authority Matrix</li><li>Custom Work Order,PR,PO</li><li>Scheduled Emails for Pending PR</li></ul></li></ul>"},
