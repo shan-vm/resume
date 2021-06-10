@@ -7,9 +7,9 @@ var json_obj = {
   "DOB":"1986/07/25",
   "language":"English, Arabic",
   "facebook":"https://www.facebook.com/i.shanvm",
-  "linkedin":"https://www.linkedin.com/in/shanvm",
+  "linkedin":"https://www.linkedin.com/in/shanmuhammed",
   "jobtitle":"Application Developer,EAM Consultant",
-  "metadesc":"Resume of Shan Muhammed. Infor EAM(CAFM) Techno Consultant, Application Developer, System Analyst and Programmer",
+  "metadesc":"Resume of Shan Muhammed. Infor EAM(CAFM) Techno Functional Consultant, Application Developer, System Analyst and Programmer",
   "skills": [
     { "skill": "infor", "name": " EAM", "percentage": "85", "image": "https://www.infor.com/img/logo-infor.png" },
     { "skill": "MEAN Stack", "name": "EAN stack", "percentage": "60", "image": "https://www.linnovate.net/sites/all/themes/linnovate/images/mean-picture.png" },
@@ -37,12 +37,12 @@ var json_obj = {
   ],
   "interests": [
     { "name": "blockchain", "image": "", "percentage": "50" },
-    { "name": "etherium", "image": "", "percentage": "50" },
+    /*{ "name": "etherium", "image": "", "percentage": "50" },*/
     { "name": "machine learning", "image": "", "percentage": "50" },
     { "name": "Augmented Reality", "image": "", "percentage": "50" },
     { "name": "odoo", "image": "", "percentage": "50" },
     { "name": "jenkin", "image": "", "percentage": "50" },
-    { "name": "selenium", "image": "", "percentage": "50" },
+    { "name": "selenium", "image": "", "percentage": "70" },
     { "name": "Industry 4.0", "image": "", "percentage": "50" },
     { "name": "Amazon web service", "image": "", "percentage": "50" },
     { "name": "google cloud platform", "image": "", "percentage": "50" },
